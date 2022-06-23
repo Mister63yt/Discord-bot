@@ -134,7 +134,7 @@ Client.on("messageCreate", message => {
             const embed = new Discord.MessageEmbed()
                 .setColor("#0C00C7")
                 .setAuthor("Entreprises !")
-                .setDescription(":ambulance: - EMS :white_check_mark:\n:police_car: - LSPD :x:\n:red_car: - Concessionnaire Voiture :x:\n:motorcycle: - Concessionnaire Moto :x:\n:tools: - Benny's :x:\n:taxi: - Taxi :white_check_mark:\n:movie_camera: - Weazel News :white_check_mark:\n:hamburger: - Burger Shot :white_check_mark:\n:smoking: - Tabac :x:")
+                .setDescription(":ambulance: - EMS :white_check_mark:\n:police_car: - LSPD :x:\n:red_car: - Concessionnaire Voiture :x:\n:motorcycle: - Concessionnaire Moto :x:\n:tools: - Benny's :x:\n:taxi: - Taxi :white_check_mark:\n:movie_camera: - Weazel News :white_check_mark:\n:hamburger: - Burger Shot :white_check_mark:\n:smoking: - Tabac :x:\n:grapes: - Vigneron :white_check_mark:\n💄 - unicorn :white_check_mark:\n💼 - Avocat :white_check_mark:")
 
             message.channel.send({ embeds: [embed]});
         
